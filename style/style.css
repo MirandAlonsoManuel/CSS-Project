@@ -1,0 +1,335 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.topbar {
+    display: flex;
+    background-color: #003366;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 14%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.topbar a{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-right: 60px;
+}
+
+.topbar a:hover {
+    color: #00b386;
+}
+
+.Start {
+    position: absolute;
+    left: 80px;
+}
+
+.head{
+    width: 100%;
+    height: 800px;
+    background-color:#17c79b;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.head img{
+    width: 15rem;
+}
+
+.head h1 {
+    color: #fff;
+    font-size: 60px;
+
+}
+
+#Portfolio {
+    background-color: #fff;
+    width: 100%;
+    height: 800px;
+}
+
+.portHead {
+    display: flex;
+    margin-top: 120px;
+    font-size: 50px;
+    color: #003366;
+    justify-content: center;
+    align-content: center;
+}
+
+.row {
+    display: grid;
+    height: 350px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 45px;
+    justify-content: center;
+    align-content: start;
+}
+
+.row img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.column:hover img{
+    opacity: 0.3;
+}
+
+#About {
+    width: 100%;
+    
+    background-color: #17c79b;
+
+}
+
+.abHead{
+    display: flex;
+    padding-top: 60px;
+    font-size: 25px;
+    color: #fff;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.col {
+    height: 200px;
+    padding: 40px;
+    
+}
+
+.col p{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.download a{
+    color: white;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: white;
+    padding: 20px;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.download a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.conHead {
+    display: flex;
+    padding-top: 60px;
+    font-size: 25px;
+    color: #003366;
+    justify-content: center;
+    align-content: center;
+}
+
+.formContainer {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formInp label{
+    font-size: 25px;
+    color: #6c757d;
+}
+
+.formInp input{
+        border: none;
+        border-bottom: 2px solid #CED4DA;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        outline: none;
+        width: 100%;
+        font-size: 1.5rem;
+}
+
+#msgInp{
+    resize: vertical;
+    border: none;
+    border-bottom: 2px solid #CED4DA;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#sub {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #6AD3BE;
+    border: hidden;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.foot {
+    height: 65px;
+    background-color: #1A252F;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.foot p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 8px;
+}
+@media (max-width: 1400px) {
+
+    .topbar a{
+        padding: 8px;
+        margin-right: 50px;
+    }
+
+    .Start{
+        left: 60px;
+    }
+
+    .row {
+        display: grid;
+        height: 350px;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 260px  260px;
+        grid-gap: 45px;
+        justify-content: center;
+        align-content: start;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .topbar a{
+        padding: 6px;
+        margin-right: 40px;
+    }
+
+    .Start{
+        left: 40px;
+    }
+
+    .row {
+        display: grid;
+        height: 350px;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 220px  220px;
+        grid-gap: 45px;
+        justify-content: center;
+        align-content: start;
+    }
+    #Portfolio {
+        height: 700px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .cositas a{
+        padding: 3px;
+        margin-right: 20px;
+    }
+
+    .Start{
+        left: 20px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    
+    .col{
+        padding: 5px;
+    }
+
+    .col p{
+        text-align: center;
+    }
+
+    .row {
+        display: grid;
+        height: 350px;
+        grid-template-columns: 330px 330px;
+        grid-template-rows: 240px 240px 240px;
+        grid-gap: 45px;
+        justify-content: center;
+        align-content: start;
+    }
+
+    #Portfolio {
+        height: 1000px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .cositas a{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin-right: 40px;
+        font-size: 20px;
+    }
+
+    .row {
+        display: grid;
+        height: 350px;
+        grid-template-columns: 380px;
+        grid-template-rows: 280px 280px 280px 280px 280px 280px;
+        grid-gap: 45px;
+        justify-content: center;
+        align-content: start;
+    }
+
+    #Portfolio {
+        height: 2100px;
+    }
+}
